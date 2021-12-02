@@ -1,0 +1,320 @@
+@media (max-width: 320px) {
+
+    /* Header */
+
+    .menuTop {
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .headerWrap {
+        display: none;
+        height: 10px;
+    }
+
+    .responsiveMenu {
+        display: flex;
+        width: 100%;
+        background-color: #1d1d2b;
+        border: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .responsiveMenu i {
+        color: #2ee67a;
+        font-size: 1.5rem;
+    }
+
+    /* HeroSection */
+
+    .heroSec {
+        
+        height: 450px;
+    }
+
+    .heroContent {
+        flex-flow: column-reverse wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+        
+    }
+
+    .heroContent img {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 20px;
+    }
+
+    .heroTxt h1 {
+        font-size: 2rem;
+    }
+
+    .heroBtn {
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    .heroBtn p {
+        font-size: 0.9rem;
+        
+    }
+
+    .heroTxt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /*About*/
+
+    .about {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        width: 100%;
+        height: 1320px;
+    }
+
+    .aboutTxt {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        height: 40vh;
+    }
+
+    .card {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        height: 125vh;
+        
+    }
+   
+
+    .leftContent {
+        display: none;
+
+    }
+
+    .MobileLeftContent {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        width: 80%;
+        margin-top: 20px;
+               
+    }
+
+    .MobileLeftContent h1 {
+        color: #2ee67a;
+        font-size: 1.2rem;
+    }
+
+    .bi.bi-award {
+        width: 20px;
+        height: 20px;
+    }
+
+    .rightContent {
+        display: none;
+    }
+
+    .MobileRightContent {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        
+    }
+
+    .MobileRightContent p {
+        margin-bottom: 25px;
+    }
+
+    .cardIco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 100%;
+        font-size: 2rem;
+        height: 100px;
+    }   
+    
+
+    .aboutTxt p {
+        font-size: 1rem;
+        padding: 0 5px;
+    }
+
+    .extraSkills {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 85%;
+        height: 50vh;
+        
+    }
+
+    .extraSkills h1 {
+        font-size: 1.8rem;
+    }
+
+    .wrapBanners {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        height: 60vh;
+    }
+
+    .miniBaner {
+        display: flex;
+        width: 35%;
+        margin: 5px 10px;
+    }
+
+    /* Projects */
+
+    .projects {
+        display: flex;
+        width: 100%;
+        height: 1400px;        
+        justify-content: flex-start;
+    }
+
+    .cardP {
+        margin: 20px 0;
+    }
+
+    .projectSpace h1 {
+        margin-bottom: 10px;
+    }
+
+    /* Services */
+    .services {
+        display: none;
+        flex-flow: column;
+        width: 100%;
+        height: 800px;
+    }
+
+    .wrapSkill {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .skillCard {
+        margin: 20px 0;
+    }
+
+    
+    /* Contact */
+    .contact {
+        display: flex;
+        width: 100%;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        height: 1030px;
+        
+    }
+
+    .topContact {
+        display: none;
+    }
+   
+
+    .contactInfos {
+        width: 100%;
+        height: 620px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .info {
+        display: flex;
+        width: 90%;
+
+    }
+
+    .contactForm {
+        display: flex;
+        flex-flow: column;
+         }
+
+    .msg {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .formInputs {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .formInputs input {
+        margin: 10px 0;
+    }
+
+    .formArea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formArea textarea {
+        margin: 10px 0;
+        width: 79%;
+    }
+
+    .subButon {
+        width: 89%;
+        display: flex;
+        justify-content: flex-end
+    }
+
+    
+
+    /* Quote */
+    .quote {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+         }
+
+    .quote h1 {
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* Footer */
+    footer {
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        height: 13vh;
+        padding: 5px;
+        
+    }
+
+    footer p.jober {
+        display: none;
+    }
+}

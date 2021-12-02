@@ -1,0 +1,650 @@
+/* Header */
+
+.menuTop {
+    width: 100%;
+    height: 60px;
+    background-color: #1d1d2b;
+    display: flex;
+
+}
+
+.responsiveMenu {
+    display: none;
+}
+
+.menuTop .headerWrap i {
+    color: #2ee67a;
+    font-size: 2rem;
+}
+
+
+
+.headerWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.headerWrap ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.headerWrap li {
+    margin-left: 30px;
+    font-size: 1rem;
+    color: #2ee67a;
+    font-weight: bold;
+}
+
+.headerWrap i {
+    color: white;
+}
+
+img {
+    color: #2ee67a;
+    width: 30px;
+    height: 31px;
+}
+
+
+/* Effects Header */
+
+.headerWrap a:hover {
+    color: white;
+    transition: all ease 0.6s;
+    cursor: pointer;
+}
+
+/* Hero Section */
+
+.heroSec {
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: url(https://uploaddeimagens.com.br/images/003/560/668/full/back.jpg) center center/cover;
+    background-blend-mode: color;
+}
+
+
+.heroContent {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heroContent img {
+    width: 30%;
+    height: 30%;
+    }
+
+.heroTxt {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.heroTxt h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.heroTxt span {
+    color: #2ee67a;
+}
+
+.heroBtn {
+    background-color: #2ee67a;
+    width: 50%;
+    height: 15%;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroBtn p {
+    color: #14141E;
+    font-weight: bold;
+}
+
+/*About Section*/
+
+.about {
+    width: 100%;
+    height: 700;
+    background-color: #14141E;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about p {
+    color: white;
+}
+
+.aboutTxt {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 50%;
+    height: 150px;
+}
+
+.aboutTxt h1 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 10px 0;
+
+}
+
+.aboutTxt p {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.0rem;
+    margin: 10px 0;
+}
+
+.aboutTxt span {
+    font-weight: bold;
+}
+
+.about .card {
+    background-color: #1d1d2b;
+
+}
+
+.card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 20px;
+    width: 50%;
+    height: 320px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.315);
+}
+
+.card span {
+    color: #2ee67a;
+    font-weight: bold;
+}
+
+.card img {
+    margin: 10px 0;
+}
+
+.card p {
+    margin: 3px 0;
+    font-size: 1.1rem;
+}
+
+.leftContent {
+    text-align: right;
+    margin: 0 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    width: 50%;
+    justify-content: center;
+    height: 100%;
+}
+
+.MobileRightContent {
+    display: none;
+}
+
+.cardIco {
+    display: none;
+}
+
+.MobileLeftContent {
+    display: none;
+}
+
+
+.rightContent {
+    text-align: left;
+    margin: 0 10px;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.rightContent p {
+    margin-bottom: 15px;
+}
+
+.rightContent h3 {
+    margin-bottom: -5px;
+}
+
+
+.leftContent img {
+    width: 80px;
+    height: 80px;
+    border: solid 1px #2ee67a;
+    border-radius: 50%;
+}
+
+.wrapBanners {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.extraSkills {
+    width: 100%;
+    display: flex;
+    height: 150px;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.extraSkills h1 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.miniBaner {
+    width: 7%;
+    height: 25px;
+    background-color: #1d1d2b;
+    border-radius: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.288);
+    margin: 0 10px;
+}
+
+.miniBaner p {
+    color: #2ee67a;
+    font-weight: 700;
+}
+
+
+
+/* Projects */
+
+.projectSpace {
+    background-color: transparent;
+    width: 100%;
+    height: 30px;
+}
+
+.projects {
+    background-color: #1d1d2b;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 600px;
+}
+
+.projects H1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.cardWrap {
+    display: flex;
+    width: 75%;
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+
+.cardP {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    text-align: left;
+    width: 260px;
+    height: 400px;
+
+}
+
+.topCard {
+    margin-bottom: 5px;
+
+}
+
+.projectPic {
+    overflow: hidden;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.topCard img {
+    width: 100%;
+    height: 130px;
+}
+
+.topCard img:hover {
+    transform: scale(1.1);
+    transition: all ease 0.6s;
+}
+
+.topCard h1 {
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+}
+
+.subInfo {
+    display: flex;
+    margin-bottom: 5px;
+
+}
+
+.subInfo i {
+    margin-right: 5px;
+    color: #2ee67a;
+}
+
+.subInfo h4 {
+    color: #2ee67a;
+    ;
+}
+
+.cardDescrip {
+    width: 100%;
+    margin-bottom: 5px;
+    height: 90px;
+
+}
+
+.cardDescrip p {
+    text-align: justify;
+    font-size: 1rem;
+    color: white;
+}
+
+.codeP {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.codeP i {
+    color: rgba(255, 255, 255, 0.397);
+    font-size: 2rem;
+}
+
+.codeP a {
+    cursor: pointer;
+}
+
+.codeP i:hover {
+    color: #2ee67a;
+    transition: all ease 0.6s;
+   
+}
+
+
+
+/* Services */
+
+.services {
+    background-color: #14141E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 360px;
+}
+
+.services span {
+    font-weight: bold;
+    color: #2ee67bc2;
+}
+
+.wrapSkill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+
+}
+
+.skillCard {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    text-align: center;
+    height: 40vh;
+    margin: 0 3%;
+    
+}
+
+.skillCard p {
+    color: white;
+}
+
+.skillCard h1 {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.skillCard i {
+    font-size: 2.5rem;
+    color: #2ee67a;
+    margin: 5px 0;
+}
+
+.skillCard h1 {
+    margin: 10px 0;
+}
+
+.skillsDescri {
+    width: 100%;
+    
+}
+
+.skillTopCard {
+    
+    width: 100%;
+}
+
+.skillMidleCard {
+    
+    width: 100%;
+}
+
+
+/* Contact */
+
+.contact {
+    background-color: #1d1d2b;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.topContact h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.contactInfos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    width: 19.1%;
+    height: 200px;
+
+}
+
+.info i {
+    font-size: 3rem;
+    color: #2ee67a;
+    margin: 5px 0;
+}
+
+.info h1 {
+    color: white;
+    margin: 5px 0;
+    font-size: 2.5rem;
+}
+
+.info p {
+    color: white;
+    margin: 5px 0;
+}
+
+.formInputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formInputs input {
+    text-align: center;
+    height: 45px;
+    width: 250px;
+    text-align: left;
+    text-decoration: none;
+    background-color: #14141E;
+    border: none;
+    font-family: "Roboto";
+    letter-spacing: 1px;
+    text-indent: 10px;
+    color: white;
+}
+
+
+
+.formArea textarea {
+    text-align: center;
+    height: 160px;
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+    background-color: #14141E;
+    border: none;
+    font-family: "Roboto";
+    letter-spacing: 1px;
+    text-indent: 10px;
+    color: white;
+    margin: 20px 0;
+}
+
+.subButon {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.subButon input {
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    color: black;
+    text-decoration: none;
+    background-color: #2ee67a;
+    border: none;
+
+}
+
+/* Quote */
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #1d1d2b;
+    width: 100%;
+    height: 130px;
+}
+
+.quote h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.quote h1:hover {
+    color: #2ee67a;
+    transition: all ease 0.6s;
+    cursor: pointer;
+}
+
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #14141E;
+    width: 100%;
+    height: 60px;
+}
+
+footer h2 {
+    color: #2ee67a;
+    font-size: 1.2rem;
+}
+
+footer i {
+    color: #2ee67a;
+    margin: 0 8px;
+    font-size: 1.5rem;
+}
+
+footer i:hover {
+    color: white;
+    transition: all ease 0.6s;
+}
+
+footer p {
+    color: white;
+}
